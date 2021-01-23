@@ -1,6 +1,13 @@
 <template>
-  <h1>Reaction Time</h1>
+  <h1>Reaction Time ⏲️</h1>
+  <p>
+    <a href="https://github.com/vamuigua" target="_blank">By Victor Allen</a>
+  </p>
+  <p>
+    <i>Test your reaction skills to see how fast you are</i>
+  </p>
   <button @click="start" :disabled="isPlaying">Play</button>
+  <p v-if="isPlaying">Get Ready...</p>
   <Block v-if="isPlaying" :delay="delay" @end="endGame" />
   <Results v-if="showResults" :score="score" />
 </template>
@@ -48,9 +55,9 @@ button {
   background: #0faf87;
   color: white;
   border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
   letter-spacing: 1px;
   cursor: pointer;
   margin: 10px;
@@ -58,5 +65,10 @@ button {
 button[disabled] {
   opacity: 0.2;
   cursor: not-allowed;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
 </style>

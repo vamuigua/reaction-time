@@ -34,13 +34,13 @@ export default {
 
 <style>
 .block {
-  width: 400px;
+  width: 300px;
   border-radius: 20px;
   background: #0faf87;
   color: white;
   text-align: center;
   padding: 100px 0;
-  margin: 40px auto;
+  margin: 10px auto;
   cursor: pointer;
 }
 </style>

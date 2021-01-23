@@ -12,12 +12,16 @@ export default {
     };
   },
   mounted() {
-    if (this.score < 250) {
+    if (this.score < 100) {
+      this.rank = "Impressive";
+    } else if (this.score < 250) {
       this.rank = "Ninja Fingers";
     } else if (this.score < 400) {
       this.rank = "Rapid Reflexes";
+    } else if (this.score < 550) {
+      this.rank = "Snail pace";
     } else {
-      this.rank = "Snail pace...";
+      this.rank = "Slow poke";
     }
   },
 };
