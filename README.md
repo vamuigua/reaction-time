@@ -2,7 +2,7 @@
 
 Reaction Time is a Vue 3 Application that tests your reaction time skills to see how fast you are
 
-![alt text]("./src/assets/screenshot.png")
+![App screenshot](src/assets/screenshot.png)
 
 ## Project setup
 
