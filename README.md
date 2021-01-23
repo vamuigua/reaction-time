@@ -1,5 +1,7 @@
 # Reaction-time ⏲️
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46f397f9-eac9-4c8a-9464-6a899f799699/deploy-status)](https://app.netlify.com/sites/reaction-time-game/deploys)
+
 Reaction Time is a Vue 3 Application that tests your reaction time skills to see how fast you are
 
 ![App screenshot](src/assets/screenshot.png)
