@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46f397f9-eac9-4c8a-9464-6a899f799699/deploy-status)](https://app.netlify.com/sites/reaction-time-game/deploys)
 
-Reaction Time is a Vue 3 Application that tests your reaction time skills to see how fast you are
+Reaction Time is a Vue 3 Application that tests your reflexes at hand-eye coordination.
 
 ![App screenshot](src/assets/screenshot.png)
 
@@ -67,7 +67,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
