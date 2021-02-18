@@ -1,8 +1,17 @@
 <template>
   <h1>Reaction Time ⏲️</h1>
-  <p>
-    <a href="https://github.com/vamuigua" target="_blank">By Victor Allen</a>
-  </p>
+  <div class="my-link">
+    <p>
+      <a href="https://github.com/vamuigua" target="_blank">By Victor Allen</a>
+    </p>
+  </div>
+  <div class="my-link">
+    <p>
+      <a href="https://github.com/vamuigua/reaction-time" target="_blank"
+        >Project Repo</a
+      >
+    </p>
+  </div>
   <p>
     <i>Test your reaction skills to see how fast you are</i>
   </p>
@@ -67,8 +76,20 @@ button[disabled] {
   cursor: not-allowed;
 }
 
-a {
+.my-link {
+  margin: 0px 15px;
+  display: inline-block;
+}
+
+.my-link a {
+  background-color: #0faf87;
+  padding: 15px;
+  border-radius: 10px;
   text-decoration: none;
-  color: #333;
+  color: white;
+}
+
+.my-link a:hover {
+  background-color: #54be92;
 }
 </style>

@@ -43,4 +43,8 @@ export default {
   margin: 10px auto;
   cursor: pointer;
 }
+
+.block:hover {
+  background-color: #54be92;
+}
 </style>
