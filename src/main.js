@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import wb from "./registerServiceWorker";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.config.globalProperties.workbox = wb;
+app.mount('#app');
