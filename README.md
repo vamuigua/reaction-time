@@ -98,7 +98,7 @@ Your done...The app should now be running on your browser 👍
 
 ![App screenshot](src/assets/screenshots/4.png)
 
-- And THAT'S IT 😎 Have FUN 🎉
+- And THAT'S IT 😎 Have FUN 🎉 <br>
   ![8-bit dancing guy](http://www.woot.co.uk/images/bitdance.gif)
 
 ### Customize configuration
